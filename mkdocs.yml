@@ -1,0 +1,9 @@
+site_name: Invention Framework Docs
+site_author: OSN Inc.
+copyright: Copyright &copy; OSN Inc. 2022
+site_description: Invention Framework is an excellent PHP framework. It follows the Model-View-Controller (MVC) pattern. It can be used for building both CLI and Web applications.
+nav:
+    - 'Home': 'https://wiki.onesoftnet.ml'
+    - 'Docs Home': 'index.md'
+    - 'Forums': 'https://forums.onesoftnet.ml'
+    - 'GitHub': 'https://github.com/onesoft-sudo'
