@@ -1,0 +1,19 @@
+:root {
+    --md-primary-fg-color:#007bff;
+    /*--md-primary-fg-color--light: #ECB7B7;
+    --md-primary-fg-color--dark: #90030C; */
+}
+
+.md-footer__inner a:hover {
+    color: #fff;
+}
+
+.alert-icon {
+    background-image: url(/assets/images/alert.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 40px;
+    margin: 20px;
+    display: block;
+}
