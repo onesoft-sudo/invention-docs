@@ -2,7 +2,7 @@
 
 The first thing you should do is to edit the `.env` file. This file has all environment-related configuration variables.
 
-### Database Connection
+## Database Connection
 In the `.env` file, there are some `DB_` prefixed variables, these are related to database connection of your app.
 
 - The `DB_VENDOR` is the database connection type you want to use. Default is MySQL. See the [valid values for this variable](#supported-database-vendors).
@@ -19,7 +19,7 @@ In the `.env` file, there are some `DB_` prefixed variables, these are related t
     Older versions of SQLite does not support some operations such as `ALTER...CHANGE` or `ALTER...DROP` etc, so there's a chance of loosing data if you do such operations with SQLite.
 </div>
 
-#### Supported Database Vendors
+### Supported Database Vendors
 Currently invention only supports MySQL, MariaDB and SQLite. MySQL is recommended.
 
 |Vendor Name|Value for `DB_VENDOR`|
@@ -28,7 +28,7 @@ Currently invention only supports MySQL, MariaDB and SQLite. MySQL is recommende
 |MariaDB    |mariadb              |
 |SQLite     |sqlite               |
 
-### Other Configurations
+## Other Configurations
 
 |Variable Name|Type   |Description                            |
 |-------------|-------|---------------------------------------|
