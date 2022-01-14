@@ -16,6 +16,7 @@ nav:
         - 'Creating a new route': basics/creating_a_new_route.md
     - 'Views':
         - 'Intro to the Views': views/intro_to_the_views.md
+        - 'Layouts': views/layouts.md
         - 'Meet PowerParser': views/meet_powerparser.md
         - 'PowerParser Directives': views/powerparser_directives.md
         - 'PowerParser Directive: :if': views/powerparser_directive_if.md
@@ -23,6 +24,8 @@ nav:
         - 'PowerParser Directive: :while': views/powerparser_directive_while.md
         - 'PowerParser Directive: :dowhile': views/powerparser_directive_dowhile.md
         - 'PowerParser Directive: :foreach': views/powerparser_directive_foreach.md
+        - 'PowerParser Directive: :yield': views/powerparser_directive_yield.md
+        - 'PowerParser Directive: :section': views/powerparser_directive_section.md
 theme: 
     name: material
     features:

@@ -10,14 +10,14 @@
         <meta name="author" content="OSN Inc.">
       
       
-        <link rel="canonical" href="http://localhost:8000/basics/mvc_basic_concepts/">
+        <link rel="canonical" href="http://localhost:8000/views/powerparser_directive_yield/">
       
       <link rel="icon" href="../../assets/favicon.png">
       <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.1.6">
     
     
       
-        <title>Basic MVC Concepts - Invention Framework Docs</title>
+        <title>PowerParser Directive: :yield - Invention Framework Docs</title>
       
     
     
@@ -71,7 +71,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#basic-mvc-concepts" class="md-skip">
+        <a href="#powerparser-directive-yield" class="md-skip">
           Skip to content
         </a>
       
@@ -104,7 +104,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Basic MVC Concepts
+              PowerParser Directive: :yield
             
           </span>
         </div>
@@ -272,14 +272,12 @@
 
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
       
       
       
@@ -302,7 +300,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../file_and_folder_structure/" class="md-nav__link">
+      <a href="../../basics/file_and_folder_structure/" class="md-nav__link">
         File & Folder Structure
       </a>
     </li>
@@ -316,7 +314,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../basic_configuration/" class="md-nav__link">
+      <a href="../../basics/basic_configuration/" class="md-nav__link">
         Basic Configuration
       </a>
     </li>
@@ -328,66 +326,11 @@
               
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          Basic MVC Concepts
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../basics/mvc_basic_concepts/" class="md-nav__link">
         Basic MVC Concepts
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#model" class="md-nav__link">
-    Model
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#controllers" class="md-nav__link">
-    Controllers
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#views" class="md-nav__link">
-    Views
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -399,7 +342,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../creating_a_new_route/" class="md-nav__link">
+      <a href="../../basics/creating_a_new_route/" class="md-nav__link">
         Creating a new route
       </a>
     </li>
@@ -419,12 +362,14 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" checked>
       
       
       
@@ -447,7 +392,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../views/intro_to_the_views/" class="md-nav__link">
+      <a href="../intro_to_the_views/" class="md-nav__link">
         Intro to the Views
       </a>
     </li>
@@ -461,7 +406,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../views/layouts/" class="md-nav__link">
+      <a href="../layouts/" class="md-nav__link">
         Layouts
       </a>
     </li>
@@ -475,7 +420,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../views/meet_powerparser/" class="md-nav__link">
+      <a href="../meet_powerparser/" class="md-nav__link">
         Meet PowerParser
       </a>
     </li>
@@ -489,7 +434,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../views/powerparser_directives/" class="md-nav__link">
+      <a href="../powerparser_directives/" class="md-nav__link">
         PowerParser Directives
       </a>
     </li>
@@ -503,7 +448,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../views/powerparser_directive_if/" class="md-nav__link">
+      <a href="../powerparser_directive_if/" class="md-nav__link">
         PowerParser Directive: :if
       </a>
     </li>
@@ -517,7 +462,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../views/powerparser_directive_for/" class="md-nav__link">
+      <a href="../powerparser_directive_for/" class="md-nav__link">
         PowerParser Directive: :for
       </a>
     </li>
@@ -531,7 +476,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../views/powerparser_directive_while/" class="md-nav__link">
+      <a href="../powerparser_directive_while/" class="md-nav__link">
         PowerParser Directive: :while
       </a>
     </li>
@@ -545,7 +490,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../views/powerparser_directive_dowhile/" class="md-nav__link">
+      <a href="../powerparser_directive_dowhile/" class="md-nav__link">
         PowerParser Directive: :dowhile
       </a>
     </li>
@@ -559,7 +504,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../views/powerparser_directive_foreach/" class="md-nav__link">
+      <a href="../powerparser_directive_foreach/" class="md-nav__link">
         PowerParser Directive: :foreach
       </a>
     </li>
@@ -571,11 +516,59 @@
               
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../../views/powerparser_directive_yield/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          PowerParser Directive: :yield
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         PowerParser Directive: :yield
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#syntax" class="md-nav__link">
+    Syntax
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#example" class="md-nav__link">
+    Example
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -587,7 +580,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../views/powerparser_directive_section/" class="md-nav__link">
+      <a href="../powerparser_directive_section/" class="md-nav__link">
         PowerParser Directive: :section
       </a>
     </li>
@@ -613,19 +606,80 @@
             <article class="md-content__inner md-typeset">
               
                 
-<a href="https://github.com/onesoft-sudo/invention-docs/edit/main/docs/basics/mvc_basic_concepts.md" title="Edit this page" class="md-content__button md-icon">
+<a href="https://github.com/onesoft-sudo/invention-docs/edit/main/docs/views/powerparser_directive_yield.md" title="Edit this page" class="md-content__button md-icon">
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
 </a>
 
 
-<h1 id="basic-mvc-concepts">Basic MVC Concepts<a class="headerlink" href="#basic-mvc-concepts" title="Permanent link">#</a></h1>
-<p>MVC is a software pattern. It stands for Model-View-Controller. Here is a short brief about Models, Views, Controllers: </p>
-<h2 id="model">Model<a class="headerlink" href="#model" title="Permanent link">#</a></h2>
-<p>A model is a special class that is used work with database. It represents a single row of a table. Within a model, you can do CRUD (Create-Read-Update-Delete) Operations and other useful stuff.</p>
-<h2 id="controllers">Controllers<a class="headerlink" href="#controllers" title="Permanent link">#</a></h2>
-<p>Controller is a piece of class that holds the application logic. A Controller contains some action methods and each method contains different logic. Optionally controllers can also pass data to the views and return it the user so that the user can see a dynamic webpage.</p>
-<h2 id="views">Views<a class="headerlink" href="#views" title="Permanent link">#</a></h2>
-<p>Views are the templates of a webpage, we can pass data to the views and represent those data to the user, dynamically.</p>
+<h1 id="powerparser-directive-yield">PowerParser Directive: <code>:yield</code><a class="headerlink" href="#powerparser-directive-yield" title="Permanent link">#</a></h1>
+<p>This directive is generally used in <a href="../layouts/">Layouts</a>. This directive tells PowerParser that find a <a href="../powerparser_directive_section/">Section</a> which has the same name as given and then output it where the <code>:yield</code> directive is used. You can use multiple <code>:yield</code> directives.</p>
+<div class="alert alert-warning">
+    <span class="alert-icon"></span>
+
+    If a section with the given name doesn't exist then nothing will be outputted.
+</div>
+
+<h3 id="syntax">Syntax<a class="headerlink" href="#syntax" title="Permanent link">#</a></h3>
+<pre><code class="language-php">:yield(section_name)
+</code></pre>
+<h3 id="example">Example<a class="headerlink" href="#example" title="Permanent link">#</a></h3>
+<p>Layout <code>layouts/app.power.php</code></p>
+<pre><code class="language-html">&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;UTF-8&quot;&gt;
+  &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+  &lt;title&gt;My First App&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;header&gt;
+    :yield('header')
+  &lt;/header&gt;
+  &lt;main&gt;
+    :yield('body')
+  &lt;/main&gt;
+  &lt;footer&gt;
+    :yield('footer')
+  &lt;/footer&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+<p>View:</p>
+<pre><code class="language-php">:extends('layouts.app')
+
+:section('header')
+&lt;h1&gt;Header&lt;/h1&gt;
+:endsection
+
+:section('footer')
+&lt;small&gt;Footer&lt;/small&gt;
+:endsection
+
+:section('body')
+&lt;p&gt;Body&lt;/p&gt;
+:endsection
+</code></pre>
+<p>This will output:</p>
+<pre><code class="language-html">&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;UTF-8&quot;&gt;
+  &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+  &lt;title&gt;My First App&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;header&gt;
+    &lt;h1&gt;Header&lt;/h1&gt;
+  &lt;/header&gt;
+  &lt;main&gt;
+    &lt;p&gt;Body&lt;/p&gt;
+  &lt;/main&gt;
+  &lt;footer&gt;
+    &lt;small&gt;Footer&lt;/small&gt;
+  &lt;/footer&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
 
               
             </article>
@@ -644,7 +698,7 @@
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
         
-        <a href="../basic_configuration/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Basic Configuration" rel="prev">
+        <a href="../powerparser_directive_foreach/" class="md-footer__link md-footer__link--prev" aria-label="Previous: PowerParser Directive: :foreach" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -653,20 +707,20 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              Basic Configuration
+              PowerParser Directive: :foreach
             </div>
           </div>
         </a>
       
       
         
-        <a href="../creating_a_new_route/" class="md-footer__link md-footer__link--next" aria-label="Next: Creating a new route" rel="next">
+        <a href="../powerparser_directive_section/" class="md-footer__link md-footer__link--next" aria-label="Next: PowerParser Directive: :section" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Creating a new route
+              PowerParser Directive: :section
             </div>
           </div>
           <div class="md-footer__button md-icon">
