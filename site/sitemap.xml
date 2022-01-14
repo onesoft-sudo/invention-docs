@@ -1,82 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>http://localhost:8000/</loc>
+         <loc>https://invention-docs.onesoftnet.ml/</loc>
          <lastmod>2022-01-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>http://localhost:8000/basics/basic_configuration/</loc>
+         <loc>https://invention-docs.onesoftnet.ml/basics/basic_configuration/</loc>
          <lastmod>2022-01-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>http://localhost:8000/basics/creating_a_new_route/</loc>
+         <loc>https://invention-docs.onesoftnet.ml/basics/creating_a_new_route/</loc>
          <lastmod>2022-01-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>http://localhost:8000/basics/file_and_folder_structure/</loc>
+         <loc>https://invention-docs.onesoftnet.ml/basics/file_and_folder_structure/</loc>
          <lastmod>2022-01-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>http://localhost:8000/basics/mvc_basic_concepts/</loc>
+         <loc>https://invention-docs.onesoftnet.ml/basics/mvc_basic_concepts/</loc>
          <lastmod>2022-01-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>http://localhost:8000/views/intro_to_the_views/</loc>
+         <loc>https://invention-docs.onesoftnet.ml/views/intro_to_the_views/</loc>
          <lastmod>2022-01-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>http://localhost:8000/views/layouts/</loc>
+         <loc>https://invention-docs.onesoftnet.ml/views/layouts/</loc>
          <lastmod>2022-01-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>http://localhost:8000/views/meet_powerparser/</loc>
+         <loc>https://invention-docs.onesoftnet.ml/views/meet_powerparser/</loc>
          <lastmod>2022-01-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>http://localhost:8000/views/powerparser_directive_dowhile/</loc>
+         <loc>https://invention-docs.onesoftnet.ml/views/powerparser_directive_dowhile/</loc>
          <lastmod>2022-01-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>http://localhost:8000/views/powerparser_directive_for/</loc>
+         <loc>https://invention-docs.onesoftnet.ml/views/powerparser_directive_for/</loc>
          <lastmod>2022-01-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>http://localhost:8000/views/powerparser_directive_foreach/</loc>
+         <loc>https://invention-docs.onesoftnet.ml/views/powerparser_directive_foreach/</loc>
          <lastmod>2022-01-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>http://localhost:8000/views/powerparser_directive_if/</loc>
+         <loc>https://invention-docs.onesoftnet.ml/views/powerparser_directive_if/</loc>
          <lastmod>2022-01-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>http://localhost:8000/views/powerparser_directive_section/</loc>
+         <loc>https://invention-docs.onesoftnet.ml/views/powerparser_directive_section/</loc>
          <lastmod>2022-01-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>http://localhost:8000/views/powerparser_directive_while/</loc>
+         <loc>https://invention-docs.onesoftnet.ml/views/powerparser_directive_while/</loc>
          <lastmod>2022-01-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>http://localhost:8000/views/powerparser_directive_yield/</loc>
+         <loc>https://invention-docs.onesoftnet.ml/views/powerparser_directive_yield/</loc>
          <lastmod>2022-01-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>http://localhost:8000/views/powerparser_directives/</loc>
+         <loc>https://invention-docs.onesoftnet.ml/views/powerparser_directives/</loc>
          <lastmod>2022-01-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
