@@ -82,7 +82,7 @@ This directory is the web server root. The `index.php` file in this directory is
 </div>
 
 ### The `resources/` directory
-Static/dynamic assets such as javascript files, typescript files, css/sass files, images go here.
+Static/dynamic assets such as javascript files, typescript files, css/sass files, images and views go here.
 
 ### The `routes/` directory
 This directory contains all of the application routes.
