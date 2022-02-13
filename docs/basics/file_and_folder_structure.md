@@ -76,7 +76,7 @@ This directory contains factories, migrations and seeders.
 This directory is the web server root. The `index.php` file in this directory is the entry point of the app.
 
 <div class="alert alert-warning">
-    <span class="alert-icon"></span>
+    <span class="icon alert-icon"></span>
 
     Never put any personal or sensitive information/file in `public` directory.
 </div>

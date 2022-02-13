@@ -13,12 +13,12 @@ For example, an `if` statement in Blade:
 @endif
 ```
 
-But in PowerParser, you need to just replace the `@` with a `:`
+But in PowerParser, you need to write the same statement in this way:
 
 ```php
-:if(condition)
+:if(condition):
 <!--HTML-->
-:endif
+:endif:
 ```
 
 Outputting something:

@@ -1,6 +1,6 @@
 site_name: Invention Framework Docs
 site_author: OSN Inc.
-site_url: https://invention-docs.onesoftnet.ml/
+site_url: http://localhost:8000/
 #site_description: Invention Framework is an excellent PHP framework. It follows the Model-View-Controller (MVC) pattern. It can be used for building both CLI and Web applications.
 repo_url: https://github.com/onesoft-sudo/invention-docs
 repo_name: GitHub
@@ -16,16 +16,27 @@ nav:
         - 'Creating a new route': basics/creating_a_new_route.md
     - 'Views':
         - 'Intro to the Views': views/intro_to_the_views.md
-        - 'Layouts': views/layouts.md
         - 'Meet PowerParser': views/meet_powerparser.md
+        - 'Layouts': views/layouts.md
+        - 'View Components': views/view_components.md
         - 'PowerParser Directives': views/powerparser_directives.md
-        - 'PowerParser Directive: :if': views/powerparser_directive_if.md
-        - 'PowerParser Directive: :for': views/powerparser_directive_for.md
-        - 'PowerParser Directive: :while': views/powerparser_directive_while.md
-        - 'PowerParser Directive: :dowhile': views/powerparser_directive_dowhile.md
-        - 'PowerParser Directive: :foreach': views/powerparser_directive_foreach.md
-        - 'PowerParser Directive: :yield': views/powerparser_directive_yield.md
-        - 'PowerParser Directive: :section': views/powerparser_directive_section.md
+        - 'PowerParser Directive: :args():': views/powerparser_directive_args.md
+        - 'PowerParser Directive: :csrf:': views/powerparser_directive_csrf.md
+        - 'PowerParser Directive: :component():': views/powerparser_directive_component.md
+        - 'PowerParser Directive: :dowhile():': views/powerparser_directive_dowhile.md
+        - 'PowerParser Directive: :extends():': views/powerparser_directive_extends.md
+        - 'PowerParser Directive: :for():': views/powerparser_directive_for.md
+        - 'PowerParser Directive: :foreach():': views/powerparser_directive_foreach.md
+        - 'PowerParser Directive: :if():': views/powerparser_directive_if.md
+        - 'PowerParser Directive: :method():': views/powerparser_directive_method.md
+        - 'PowerParser Directive: :section():': views/powerparser_directive_section.md
+        - 'PowerParser Directive: :title():': views/powerparser_directive_title.md
+        - 'PowerParser Directive: :while():': views/powerparser_directive_while.md
+        - 'PowerParser Directive: :yield():': views/powerparser_directive_yield.md
+    - "Core Features and Usage":
+        - "Application & Entry Points": "core/application_and_entry_points.md"
+    - "Controllers":
+        - "Creating and Understanding a Basic Controller": "controllers/creating_and_understanding_a_basic_controller.md"
 theme: 
     name: material
     features:

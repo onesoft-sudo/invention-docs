@@ -8,12 +8,19 @@
     color: #fff;
 }
 
-.alert-icon {
-    background-image: url(/assets/images/alert.svg);
+.icon {
     background-size: cover;
     background-repeat: no-repeat;
     height: 40px;
     width: 40px;
     margin: 20px;
     display: block;
+}
+
+.alert-icon {
+    background-image: url(../images/alert.svg);
+}
+
+.info-icon {
+    background-image: url(../images/info.svg);
 }

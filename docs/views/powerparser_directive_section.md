@@ -1,9 +1,9 @@
-# PowerParser Directive: `:section`
+# PowerParser Directive: `:section()::`
 
 Starts an output buffer and saves it, which can be retrived back with an [Yield](../powerparser_directive_yield/) directive.
 
 <div class="alert alert-warning">
-    <span class="alert-icon"></span>
+    <span class="icon alert-icon"></span>
     
     If multiple sections have the same name, then the last section's output buffer will be returned; because it overwrites the data.
 </div>
@@ -11,9 +11,9 @@ Starts an output buffer and saves it, which can be retrived back with an [Yield]
 ### Syntax
 
 ```php
-:section(name)
+:section(name):
 <!--HTML or Other PowerParser Directive-->
-:endsection
+:endsection:
 ```
 
 ### Example
@@ -21,19 +21,19 @@ Starts an output buffer and saves it, which can be retrived back with an [Yield]
 View:
 
 ```php
-:extends('layouts.app')
+:extends('layouts.app'):
 
-:section('header')
+:section('header'):
 <h1>Header</h1>
-:endsection
+:endsection:
 
-:section('footer')
+:section('footer'):
 <small>Footer</small>
-:endsection
+:endsection:
 
-:section('body')
+:section('body'):
 <p>Body</p>
-:endsection
+:endsection:
 ```
 
 Layout `layouts/app.power.php`
@@ -47,13 +47,13 @@ Layout `layouts/app.power.php`
 </head>
 <body>
   <header>
-    :yield('header')
+    :yield('header'):
   </header>
   <main>
-    :yield('body')
+    :yield('body'):
   </main>
   <footer>
-    :yield('footer')
+    :yield('footer'):
   </footer>
 </body>
 </html>

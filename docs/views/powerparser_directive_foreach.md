@@ -1,30 +1,30 @@
-# PowerParser Directive: `:foreach`
+# PowerParser Directive: `:foreach():`
 
 This is equivalent to PHP foreach loops.
 
 ### Syntax
 
 ```php
-:foreach($array_or_object as $value)
+:foreach($array_or_object as $value):
 <!--HTML or Other PowerParser Directive-->
-:endforeach
+:endforeach:
 ```
 
 or,
 
 ```php
-:foreach($array_or_object as $key => $value)
+:foreach($array_or_object as $key => $value):
 <!--HTML or Other PowerParser Directive-->
-:endforeach
+:endforeach:
 ```
 
 ### Example
 
 ```php
 <ul>
-    :foreach($_SERVER as $key => $value)
+    :foreach($_SERVER as $key => $value):
     <li>{{ $key }} => {{ $value }}</li>
-    :endforeach
+    :endforeach:
 </ul>
 ```
 

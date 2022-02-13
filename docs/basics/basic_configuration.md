@@ -14,7 +14,7 @@ In the `.env` file, there are some `DB_` prefixed variables, these are related t
 
 
 <div class="alert alert-warning">
-    <span class="alert-icon"></span>
+    <span class="icon alert-icon"></span>
 
     Older versions of SQLite does not support some operations such as `ALTER...CHANGE` or `ALTER...DROP` etc, so there's a chance of loosing data if you do such operations with SQLite.
 </div>
@@ -30,9 +30,9 @@ Currently invention only supports MySQL, MariaDB and SQLite. MySQL is recommende
 
 ## Other Configurations
 
-|Variable Name|Type   |Description                            |
-|-------------|-------|---------------------------------------|
-|TMP_DIR      |String |Temporary file storage directory.      |
-|CACHE_DIR    |String |Cache file storage directory.          |
-|CONF_DIR     |String |Configuration directory.               |
-|APP_ENV_DEV  |Integer|Specify if the if is under development.|
+|Variable Name|Type   |Description                             |
+|-------------|-------|----------------------------------------|
+|TMP_DIR      |String |Temporary file storage directory.       |
+|CACHE_DIR    |String |Cache file storage directory.           |
+|CONF_DIR     |String |Configuration directory.                |
+|APP_ENV_DEV  |Integer|Specify if the app is under development.|

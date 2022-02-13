@@ -33,7 +33,7 @@ Alternatively, add these things if you're using PowerParser:
   <title>My First App</title>
 </head>
 <body>
-  :yield('content')
+  :yield('content'):
 </body>
 </html>
 ```
@@ -65,12 +65,12 @@ Now, if you're using PowerParser, then follow these steps:
 Create a new view `test.power.php` (Remember, the extension `.power.php` tells your app that it is a PowerParser file, and `.php` tells you app that it is a simple PHP file.):
 
 ```html
-:extends('layouts.main')
+:extends('layouts.main'):
 
-:section('content')
+:section('content'):
 <h1>Hello world!</h1>
 <p>Your layout and view(s) are working!</p>
-:endsection
+:endsection:
 ```
 
 And then add a new route as done before.

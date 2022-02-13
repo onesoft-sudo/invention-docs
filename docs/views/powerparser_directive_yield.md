@@ -1,9 +1,9 @@
-# PowerParser Directive: `:yield`
+# PowerParser Directive: `:yield():`
 
-This directive is generally used in [Layouts](../layouts/). This directive tells PowerParser that find a [Section](../powerparser_directive_section/) which has the same name as given and then output it where the `:yield` directive is used. You can use multiple `:yield` directives.
+This directive is generally used in [Layouts](../layouts/). This directive tells PowerParser that find a [Section](../powerparser_directive_section/) which has the same name as given and then output it where the `:yield:` directive is used. You can use multiple `:yield:` directives.
 
 <div class="alert alert-warning">
-    <span class="alert-icon"></span>
+    <span class="icon alert-icon"></span>
 
     If a section with the given name doesn't exist then nothing will be outputted.
 </div>
@@ -11,7 +11,7 @@ This directive is generally used in [Layouts](../layouts/). This directive tells
 ### Syntax
 
 ```php
-:yield(section_name)
+:yield(section_name):
 ```
 
 ### Example
@@ -27,13 +27,13 @@ Layout `layouts/app.power.php`
 </head>
 <body>
   <header>
-    :yield('header')
+    :yield('header'):
   </header>
   <main>
-    :yield('body')
+    :yield('body'):
   </main>
   <footer>
-    :yield('footer')
+    :yield('footer'):
   </footer>
 </body>
 </html>
@@ -42,19 +42,19 @@ Layout `layouts/app.power.php`
 View:
 
 ```php
-:extends('layouts.app')
+:extends('layouts.app'):
 
-:section('header')
+:section('header'):
 <h1>Header</h1>
-:endsection
+:endsection:
 
-:section('footer')
+:section('footer'):
 <small>Footer</small>
-:endsection
+:endsection:
 
-:section('body')
+:section('body'):
 <p>Body</p>
-:endsection
+:endsection:
 ```
 
 This will output:

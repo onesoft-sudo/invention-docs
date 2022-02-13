@@ -1,13 +1,13 @@
-# PowerParser Directive: `:dowhile`
+# PowerParser Directive: `:dowhile:`
 
 This is equivalent to PHP do-while loops.
 
 ### Syntax
 
 ```php
-:dowhile
+:dowhile:
 <!--HTML or Other PowerParser Directive-->
-:enddowhile(condition)
+:enddowhile(condition):
 ```
 
 ### Example
@@ -15,10 +15,10 @@ This is equivalent to PHP do-while loops.
 ```php
 <ul>
     !{{ $i = 1 }}!
-    :dowhile
+    :dowhile:
     <li>Page {{ $i }}</li>
     !{{ $i++ }}!
-    :enddowhile($i <= 0)
+    :enddowhile($i <= 0):
 </ul>
 ```
 
