@@ -14,6 +14,7 @@ nav:
         - 'Basic Configuration': basics/basic_configuration.md
         - 'Basic MVC Concepts': basics/mvc_basic_concepts.md
         - 'Creating a new route': basics/creating_a_new_route.md
+        - 'More about routing': basics/more_about_routing.md
     - 'Views':
         - 'Intro to the Views': views/intro_to_the_views.md
         - 'Meet PowerParser': views/meet_powerparser.md
@@ -29,6 +30,7 @@ nav:
         - 'PowerParser Directive: :foreach():': views/powerparser_directive_foreach.md
         - 'PowerParser Directive: :if():': views/powerparser_directive_if.md
         - 'PowerParser Directive: :method():': views/powerparser_directive_method.md
+        - 'PowerParser Directive: :php:': views/powerparser_directive_php.md
         - 'PowerParser Directive: :section():': views/powerparser_directive_section.md
         - 'PowerParser Directive: :title():': views/powerparser_directive_title.md
         - 'PowerParser Directive: :while():': views/powerparser_directive_while.md
@@ -37,6 +39,7 @@ nav:
         - "Application & Entry Points": "core/application_and_entry_points.md"
     - "Controllers":
         - "Creating and Understanding a Basic Controller": "controllers/creating_and_understanding_a_basic_controller.md"
+        - "Action Methods and Their Work": "controllers/action_methods_and_their_work.md"
 theme: 
     name: material
     features:

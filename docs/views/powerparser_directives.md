@@ -11,7 +11,7 @@ All PowerParser directives are listed here:
 - [:foreach():](../powerparser_directive_foreach/)
 - [:if():](../powerparser_directive_if/)
 - [:method():](../powerparser_directive_method/)
-- [:php():](../powerparser_directive_php/)
+- [:php:](../powerparser_directive_php/)
 - [:section():](../powerparser_directive_section/)
 - [:title():](../powerparser_directive_title/)
 - [:while():](../powerparser_directive_while/)

@@ -53,3 +53,5 @@ The `preinit()` method is called before the application gets ready; the `init()`
 
 You can register or configure your application services in those methods.
 There are already some Initializers present on your application, but you can create your own if you need.
+
+After that, when the `run()` method is called, it simply calls `Router::resolve()` method, which takes some info from the request and returns the output based on those info. And finally, the output is printed to the client's browser.
