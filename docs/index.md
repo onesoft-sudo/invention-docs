@@ -35,6 +35,6 @@ php console serve
 ```
 
 
-The first command installs the project dependencies, the second one compiles the javascript and css files and puts them into the `public/` folder and the last ommand starts a local development server (PHP's built in dev server) at [localhost:8080](http://localhost:8080).
+The first command installs the project dependencies, the second one compiles the javascript and css files and puts them into the `public/` folder and the last command starts a local development server (PHP's built in dev server) at [localhost:8080](http://localhost:8080).
 
 You can now open http://localhost:8080 using your favourite browser.
