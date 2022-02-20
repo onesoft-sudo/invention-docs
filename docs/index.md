@@ -5,7 +5,7 @@
 
 Your server/development computer must meet these requirements in order to run Invention Framework Apps:
 
-- [PHP v7.4.0](https://www.php.net/releases/7_4_0.php) or higher
+- [PHP v8.0.0](https://www.php.net/releases/8_0_0.php) or higher
 - [NodeJS](https://nodejs.org) JavaScript Runtime v12.0.0 or higher
 - [PHP PDO](https://www.php.net/manual/en/book.pdo.php) extension with SQLite and MySQL driver
 - [PHP JSON](https://www.php.net/manual/en/json.installation.php) extension
@@ -17,7 +17,7 @@ You can install Invention using [Composer](https://getcomposer.org):
 
 
 ```
-composer create-project osn/invention myapp
+composer create-project osn/invention:dev-main myapp
 ```
 
 This will create an Invention project in `myapp/` directory.
