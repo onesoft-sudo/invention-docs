@@ -1,6 +1,6 @@
 # Action Methods and Their Work
 
-There are some standard controller actions which can be used to enhance your app's code.
+There are some standard controller actions which can be used to enhance your app's code. You're not forced to use these methods, but it is recommended to do so.
 
 ### The `index()` method
 

@@ -16,6 +16,22 @@ Route::get("/home", function(){
 
 Now this `view()` function or `View` object checks if the `resources/views/` directory contains a view named `[given_name].php` or `[given_name].power.php`; if exists then it returns the whole content of the file as a string. In this case the `[given_name]` is `home`.
 
+You can specify folders:
+
+```php
+Route::get("/home", function(){
+    return new View('test/home');
+});
+```
+
+Using `.` (dot):
+
+```php
+Route::get("/home", function(){
+    return new View('test.home'); // same as above
+});
+```
+
 <div class="alert alert-warning">
     <span class="icon alert-icon"></span>
     If the given view doesn't exist then it will throw a `FileNotFoundException`.

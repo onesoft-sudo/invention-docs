@@ -2,142 +2,147 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>http://localhost:8000/</loc>
-         <lastmod>2022-02-20</lastmod>
+         <lastmod>2022-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://localhost:8000/basics/basic_configuration/</loc>
-         <lastmod>2022-02-20</lastmod>
+         <lastmod>2022-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://localhost:8000/basics/creating_a_new_route/</loc>
-         <lastmod>2022-02-20</lastmod>
+         <lastmod>2022-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://localhost:8000/basics/file_and_folder_structure/</loc>
-         <lastmod>2022-02-20</lastmod>
+         <lastmod>2022-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://localhost:8000/basics/more_about_routing/</loc>
-         <lastmod>2022-02-20</lastmod>
+         <lastmod>2022-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://localhost:8000/basics/mvc_basic_concepts/</loc>
-         <lastmod>2022-02-20</lastmod>
+         <lastmod>2022-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://localhost:8000/controllers/action_methods_and_their_work/</loc>
-         <lastmod>2022-02-20</lastmod>
+         <lastmod>2022-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://localhost:8000/controllers/creating_and_understanding_a_basic_controller/</loc>
-         <lastmod>2022-02-20</lastmod>
+         <lastmod>2022-02-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://localhost:8000/controllers/rendering_a_view_from_a_controller/</loc>
+         <lastmod>2022-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://localhost:8000/core/application_and_entry_points/</loc>
-         <lastmod>2022-02-20</lastmod>
+         <lastmod>2022-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://localhost:8000/views/intro_to_the_views/</loc>
-         <lastmod>2022-02-20</lastmod>
+         <lastmod>2022-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://localhost:8000/views/layouts/</loc>
-         <lastmod>2022-02-20</lastmod>
+         <lastmod>2022-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://localhost:8000/views/meet_powerparser/</loc>
-         <lastmod>2022-02-20</lastmod>
+         <lastmod>2022-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://localhost:8000/views/powerparser_directive_args/</loc>
-         <lastmod>2022-02-20</lastmod>
+         <lastmod>2022-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://localhost:8000/views/powerparser_directive_component/</loc>
-         <lastmod>2022-02-20</lastmod>
+         <lastmod>2022-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://localhost:8000/views/powerparser_directive_csrf/</loc>
-         <lastmod>2022-02-20</lastmod>
+         <lastmod>2022-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://localhost:8000/views/powerparser_directive_dowhile/</loc>
-         <lastmod>2022-02-20</lastmod>
+         <lastmod>2022-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://localhost:8000/views/powerparser_directive_extends/</loc>
-         <lastmod>2022-02-20</lastmod>
+         <lastmod>2022-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://localhost:8000/views/powerparser_directive_for/</loc>
-         <lastmod>2022-02-20</lastmod>
+         <lastmod>2022-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://localhost:8000/views/powerparser_directive_foreach/</loc>
-         <lastmod>2022-02-20</lastmod>
+         <lastmod>2022-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://localhost:8000/views/powerparser_directive_if/</loc>
-         <lastmod>2022-02-20</lastmod>
+         <lastmod>2022-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://localhost:8000/views/powerparser_directive_method/</loc>
-         <lastmod>2022-02-20</lastmod>
+         <lastmod>2022-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://localhost:8000/views/powerparser_directive_php/</loc>
-         <lastmod>2022-02-20</lastmod>
+         <lastmod>2022-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://localhost:8000/views/powerparser_directive_section/</loc>
-         <lastmod>2022-02-20</lastmod>
+         <lastmod>2022-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://localhost:8000/views/powerparser_directive_title/</loc>
-         <lastmod>2022-02-20</lastmod>
+         <lastmod>2022-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://localhost:8000/views/powerparser_directive_while/</loc>
-         <lastmod>2022-02-20</lastmod>
+         <lastmod>2022-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://localhost:8000/views/powerparser_directive_yield/</loc>
-         <lastmod>2022-02-20</lastmod>
+         <lastmod>2022-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://localhost:8000/views/powerparser_directives/</loc>
-         <lastmod>2022-02-20</lastmod>
+         <lastmod>2022-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://localhost:8000/views/view_components/</loc>
-         <lastmod>2022-02-20</lastmod>
+         <lastmod>2022-02-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

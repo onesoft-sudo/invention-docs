@@ -786,6 +786,20 @@
 
             
           
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../controllers/rendering_a_view_from_a_controller/" class="md-nav__link">
+        Rendering a View from a Controller
+      </a>
+    </li>
+  
+
+            
+          
         </ul>
       </nav>
     </li>
@@ -821,6 +835,16 @@ Route::get(&quot;/home&quot;, function(){
 });
 </code></pre>
 <p>Now this <code>view()</code> function or <code>View</code> object checks if the <code>resources/views/</code> directory contains a view named <code>[given_name].php</code> or <code>[given_name].power.php</code>; if exists then it returns the whole content of the file as a string. In this case the <code>[given_name]</code> is <code>home</code>.</p>
+<p>You can specify folders:</p>
+<pre><code class="language-php">Route::get(&quot;/home&quot;, function(){
+    return new View('test/home');
+});
+</code></pre>
+<p>Using <code>.</code> (dot):</p>
+<pre><code class="language-php">Route::get(&quot;/home&quot;, function(){
+    return new View('test.home'); // same as above
+});
+</code></pre>
 <div class="alert alert-warning">
     <span class="icon alert-icon"></span>
     If the given view doesn't exist then it will throw a `FileNotFoundException`.

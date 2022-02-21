@@ -63,6 +63,6 @@ HTTP Method|Route            |Action Method
 `PATCH`    |`/foo/(\d+)`     |`update($id)`
 `DELETE`   |`/foo/(\d+)`     |`delete($id)`
 
-Each of these action methods are explained [here](..//).<br>
+Each of these action methods are explained [here](../action_methods_and_their_work/).<br>
 Now, if you follow the above naming conventions, then you get an advantage. Instead of registering all of the methods one-by-one, you can directly use one of `Route::assignAPIController($path, $controller)` and `Route::assignWebController($path, $controller)`.<br>
 The `assignAPIController()` registers all applicable routes for an APi controller; and the `assignWebController()` registers routes for a resource controller.

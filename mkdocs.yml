@@ -40,6 +40,7 @@ nav:
     - "Controllers":
         - "Creating and Understanding a Basic Controller": "controllers/creating_and_understanding_a_basic_controller.md"
         - "Action Methods and Their Work": "controllers/action_methods_and_their_work.md"
+        - "Rendering a View from a Controller": "controllers/rendering_a_view_from_a_controller.md"
 theme: 
     name: material
     features:
