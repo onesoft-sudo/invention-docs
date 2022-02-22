@@ -36,3 +36,22 @@ Route::get("/home", function(){
     <span class="icon alert-icon"></span>
     If the given view doesn't exist then it will throw a `FileNotFoundException`.
 </div>
+
+### Passing data to the views
+
+You can pass an array of data in this way:
+
+```php
+Route::get("/home", function(){
+    return view('test', [
+        'foo' => 'bar',
+        'one' => 1
+    ]);
+});
+```
+
+In your view, you can access these data as variables. The variable names will be same as the array keys:
+
+```php
+<?= $foo ?>
+```
