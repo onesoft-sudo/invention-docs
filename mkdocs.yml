@@ -44,7 +44,7 @@ nav:
         - "Return Values of a Controller Action": "controllers/return_values_of_a_controller_action.md"
         - "Returning Custom Response": "controllers/returning_custom_response.md"
     - "Models":
-        - "Into to the Models": "models/intro_to_the_models.md"
+        - "Intro to the Models": "models/intro_to_the_models.md"
 theme: 
     name: material
     features:

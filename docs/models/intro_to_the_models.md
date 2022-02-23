@@ -1,4 +1,4 @@
-# Into to the Models
+# Intro to the Models
 
 The models are simple class which works as a wrapper for your application data. They provide an elegant way to interact with your database and process data. You can imagine that each model instance is an indivisual row of a database table.
 
