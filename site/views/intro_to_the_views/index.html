@@ -415,9 +415,40 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Intro to the Views
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         Intro to the Views
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#passing-data-to-the-views" class="md-nav__link">
+    Passing data to the views
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -800,6 +831,82 @@
 
             
           
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../controllers/return_values_of_a_controller_action/" class="md-nav__link">
+        Return Values of a Controller Action
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../controllers/returning_custom_response/" class="md-nav__link">
+        Returning Custom Response
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7">
+          Models
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Models" data-md-level="1">
+        <label class="md-nav__title" for="__nav_7">
+          <span class="md-nav__icon md-icon"></span>
+          Models
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../models/intro_to_the_models/" class="md-nav__link">
+        Into to the Models
+      </a>
+    </li>
+  
+
+            
+          
         </ul>
       </nav>
     </li>
@@ -849,6 +956,19 @@ Route::get(&quot;/home&quot;, function(){
     <span class="icon alert-icon"></span>
     If the given view doesn't exist then it will throw a `FileNotFoundException`.
 </div>
+
+<h3 id="passing-data-to-the-views">Passing data to the views<a class="headerlink" href="#passing-data-to-the-views" title="Permanent link">#</a></h3>
+<p>You can pass an array of data in this way:</p>
+<pre><code class="language-php">Route::get(&quot;/home&quot;, function(){
+    return view('test', [
+        'foo' =&gt; 'bar',
+        'one' =&gt; 1
+    ]);
+});
+</code></pre>
+<p>In your view, you can access these data as variables. The variable names will be same as the array keys:</p>
+<pre><code class="language-php">&lt;?= $foo ?&gt;
+</code></pre>
 
               
             </article>

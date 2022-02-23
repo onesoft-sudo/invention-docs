@@ -41,6 +41,10 @@ nav:
         - "Creating and Understanding a Basic Controller": "controllers/creating_and_understanding_a_basic_controller.md"
         - "Action Methods and Their Work": "controllers/action_methods_and_their_work.md"
         - "Rendering a View from a Controller": "controllers/rendering_a_view_from_a_controller.md"
+        - "Return Values of a Controller Action": "controllers/return_values_of_a_controller_action.md"
+        - "Returning Custom Response": "controllers/returning_custom_response.md"
+    - "Models":
+        - "Into to the Models": "models/intro_to_the_models.md"
 theme: 
     name: material
     features:

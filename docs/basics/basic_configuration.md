@@ -34,5 +34,5 @@ Currently invention only supports MySQL, MariaDB and SQLite. MySQL is recommende
 |-------------|-------|----------------------------------------|
 |TMP_DIR      |String |Temporary file storage directory.       |
 |CACHE_DIR    |String |Cache file storage directory.           |
-|CONF_DIR     |String |Configuration directory.                |
-|APP_ENV_DEV  |Integer|Specify if the app is under development.|
+|CONF_FILE    |String |Configuration file.                     |
+|APP_ENV      |String |Specify the app environment.            |
